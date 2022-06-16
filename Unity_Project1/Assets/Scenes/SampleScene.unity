@@ -1246,6 +1246,7 @@ GameObject:
   - component: {fileID: 528773855}
   - component: {fileID: 528773856}
   - component: {fileID: 528773853}
+  - component: {fileID: 528773857}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1312,7 +1313,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528773850}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.224, y: -3.415, z: 0}
+  m_LocalPosition: {x: -0.16, y: -3.415, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 519420032}
@@ -1364,7 +1365,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528773850}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1402,6 +1403,40 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &528773857
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 528773850}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.16, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.063460514, y: 0.30758333}
+      - {x: -0.07563807, y: -0.025006771}
+      - {x: -0.32563806, y: -0.14113379}
+      - {x: -0.3735021, y: -0.3119626}
+      - {x: -0.07041252, y: -0.37350225}
+      - {x: 0.26067963, y: -0.3672018}
+      - {x: 0.2743552, y: 0.2123928}
+      - {x: 0.28051838, y: 0.21306705}
+      - {x: 0.100530505, y: 0.3280964}
 --- !u!1 &704008308
 GameObject:
   m_ObjectHideFlags: 0
@@ -1788,7 +1823,7 @@ Transform:
   m_GameObject: {fileID: 1036173964}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.67, y: 2.67, z: -1.2833039}
-  m_LocalScale: {x: 3.3242188, y: 0.225, z: 1}
+  m_LocalScale: {x: 3.2783384, y: 0.225, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
